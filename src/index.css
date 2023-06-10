@@ -1,0 +1,42 @@
+* {
+  font-family: "Roboto";
+}
+.todo {
+  margin-top: 40px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo__header {
+  align-items: center;
+}
+.todo__header-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo__todolist-container {
+  width: 50%;
+  height: 48px;
+  margin-top: 40px;
+  gap: 20px;
+}
+.todo__todolist-child {
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 16px 32px;
+  border-radius: 8px;
+}
+.todo__todolist-child-content {
+  flex: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+.todo__todolist-child-content div {
+  flex: 50%;
+}
+.todo__todolist-child-btn {
+  flex: 20%;
+}
